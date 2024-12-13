@@ -1,0 +1,200 @@
+
+HTML :Hyper Text Mark-up Language
+
+Difference between HTML and HTML5:
+HTML5 is an updated version of HTML that brings additional features to the mark-up language and incorporates new Internet technologies.
+HTML doesn't provide support for videos and audio. HTML5 supports both audio and video.
+----------------------------------------------------------------------------------------------------------------
+Doctype:
+Instruction to the web browser about what version of HTML the page is written.
+----------------------------------------------------------------------------------------------------------------
+Metatags: 
+
+The <meta> tag defines metadata about an HTML document. 
+Metatags are not visible on the webpage but provide essential instructions or information for browsers and serach engines.
+
+<meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+--------------------------------------------------------------------------------------------------------------------
+Tags:
+
+heading:
+
+The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least.
+<h1></h1>,<h2></<h2>,<h3></h3>,<h4></h4>,<h5></5>,<h6></h6>.
+--------------------------------------------------------------------------------------------------------------------
+Paragraph :
+
+A paragraph element in an HTML document is made up of content 
+<p> tags in HTML help us create paragraphs on a web page
+--------------------------------------------------------------------------------------------------------------------------------
+Strong tag:
+
+ strong tag is a logical tag.
+ When strong tag is used, it makes the word thicker & also tells the Browser that the text inside "strong" tag is important.
+-------------------------------------------------------------------------------------------------------------------
+Bold tag:
+
+Bold tag is a physical tag.
+Basically when bold tag is used, it only makes the words thicker
+------------------------------------------------------------------------------------------------------------------------
+empahsised tag:
+
+The <em> tag is used to define emphasized text. The content inside is typically displayed in italic.
+-----------------------------------------------------------------------------------------------------------
+Italic tag:
+
+The <i> tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+--------------------------------------------------------------------------------------------------------------------------
+Mark tag :
+
+It is used to highlight some part of the text for quick reference inside another element.
+----------------------------------------------------------------------------------------------------------------
+marquee :
+
+It is used to create scrolling piece of text or image.
+Syntax:
+<marquee behaviour=” ” direction=” ”</marquee>
+Behaviour-scroll, slide, alternative
+Direction-Left, right, down
+-------------------------------------------------------------------------------------------------------------------
+Superscript:
+Text appears half a character above the normal line and is sometimes rendered in a smaller font.
+Ex:
+<p>a<sup>2</sup>+b<sup>2</sup>=2ab</p> 
+----------------------------------------------------------------------------------------------------------------------
+Subscript:
+Text appears half a character below the normal line.
+Ex:
+<p>The chemical formula of water is H<sub>2</sub>o</p>
+--------------------------------------------------------------------------------------------------------------------------
+img tag :
+
+<img>- <img src=”” alt=”” width=””>
+The HTML <img> tag is used to embed an image in a web page. 
+ images are linked to web pages. The <img> tag creates a holding space for the referenced image. 
+The <img> tag is empty , it contains attributes only, and does not have a closing tag.
+Embed:
+The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application.
+
+SRC:
+The src attribute specifies the URL of the media file to play. This attribute is required when <source> is used in <audio> and <video> .
+
+Alt:
+The alt attribute specifies an alternate text for an area, if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute).
+-----------------------------------------------------------------------------------------------------------------
+Pre tag:
+
+Pre tag will display exactly the same.
+Ex:
+<pre>
+        Function greet( ) {
+         Console tag(‘good morning’)  }
+</pre>
+-----------------------------------------------------------------------------------------------------------------------
+Code tag:
+
+Code tag will display content in the same line.
+Ex:
+<p>the example of <code>code tag</code></p>
+---------------------------------------------------------------------------------------------------------------------------------
+div :
+div is a block level element,Block level element will always starts on a new line.
+--------------------------------------------------------------------------------------------------------------------
+span:
+span is a inline element,Inline level element does not start on a new line rather it will take necessary or required space.
+---------------------------------------------------------------------------------------------------------------------
+Cite:
+<Cite> is used when the content is some kind of articles.
+Cite is add to the text to mention the credits. example author of the book
+
+<cite>content</cite>
+     
+-----------------------------------------------------------------------------------------------------------------------------
+Address:
+The <address> tag defines the contact information for the author/owner of a document or an article. 
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+
+<address>content</address>
+--------------------------------------------------------------------------------------------------------------------------------
+Quotation: ( q)
+q is  to write something or content inside the double quotation mark.
+          <q>content</q>
+----------------------------------------------------------------------------------------------------------------------------------
+Types of lists:
+ordered list (ol) :By default starts from 1(numbers)(1,A,a,I)
+un-ordered list(ul) :By default starts from dot(.) -Square, Disc, Circle, None
+description list(dl) :description term(dt), description data/details(dd)
+----------------------------------------------------------------------------------------------------------------------------
+I frame: Inline frames
+
+An inline frame (iframe) is a HTML element that loads another HTML page within the document. 
+It essentially puts another webpage within the parent page. 
+They are commonly used for advertisements, embedded videos and interactive content.
+<i frame src=”” frame border=”0”></iframe> 
+
+---------------------------------------------------------------------------------------------------------------------
+Table:
+Table is used to create tabular data structures with rows and 
+columns. It can be used to display data in a structured format.
+Nested Tble:
+The creation of nested table is supported by HTML which helps in creative more large and complex tables.
+Table inside the table.
+Properties:
+Table row ( tr)
+Table head (th)
+Table data (td)
+Border, Cell spacing-outside, Cell padding-inside
+Col span, row span
+-----------------------------------------------------------------------------------------------------------------------
+form:
+The form element is used to create a web form that collects user input. It is used for data submission to a server.
+
+Field set tag: ( create boundary line)
+The field set element represents a set of form controls optionally grouped under a common name. The name of the group is given by the first legend element that is a child of the field set element.
+
+<field set> </field set>
+
+Legend tag: (title)
+The <legend>  element is used to add a caption to a group of related form <input> elements that have been grouped together in to a <filedset>
+
+<legend> content (title)</legend>
+
+Form tag:
+Form is required when you want to collect information that visitors provide.
+<form action=” ”></form>
+
+Action:
+ Go to folder and create file and text submit content
+
+Label tag:
+Useful for screen –readers users
+<label for=””>content</label>
+
+Input tag:
+Where the user can enter the data.
+<input type=”” id=”” name=”” placeholder=””>
+
+Types;
+1.Type-text (enter the data)
+2.Type-Date (Date of birth)
+3.Type-Age ( number)
+4.Select the option:
+                    <label for=””>content</label>
+                                <select id=”” name=””>  
+                                 <option value=””>content</option>
+                                 <option value=””>content</option>
+                                </select>
+5.Type-email (email)
+
+6.Type-radio (positions etc.) : circle
+We can select only one option.
+               <input type=”radio” id=”” value=”” name=””>content
+7.Type-check box : square
+We can select one or multiple options.
+             <input type=”check box” id=”” value=”” name=””>content
+8.type-reset (reset)
+         <input type=”reset” value=”reset” id=”reset”>
+9.Type-submit(submit)
+            <input type=”submit” value=” submit” id=” submit”>
+10. text area (intrest)
+      <text area  name=””  id=”” col=”20” row=”10”> <text area>
